@@ -1,0 +1,184 @@
+body{
+    margin: 0;
+    padding: 0;
+
+    font-family: "Open+Sans", "Arial", sans-serif;
+    font-size: 45.83px;
+    line-height: 125px;
+    font-weight: 400;
+    color: #393939;
+
+    background-color: #ffffff;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header{
+    background-color: #4c5fa9;
+    color: #ffffff;
+}
+
+.header-name{
+    font-family: "Montserrat", "Arial", sans-serif;
+    font-size: 100px;
+    line-height: 95px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+}
+
+.header-profession{
+    font-family: "Open+Sans", Arial, sans-serif;
+    font-size: 58.33px;
+    line-height: 95px;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+}
+
+.header-contacts,
+.header a{
+    color: #ffffff;
+}
+
+.header a:hover,
+.header a:focus{
+    color: #092697
+}
+
+.contacts-link{
+    line-height: 66.67px;
+}
+
+.contacts-email{
+    line-height: 70.83px;
+}
+
+.contacts-tel{
+    line-height: 125px;
+}
+
+.left-column{
+    background-color: #fafafa;
+}
+
+li,
+.Interest li,
+.Reference-item,
+.Awwards-item,
+.Experience-item,
+.Education-item,
+.Skils-item,
+.contacts-link,
+.Skils-possession,
+.descripon{
+    list-style: none;
+}
+
+.conteiner h2{
+    font-size: 66.67px;
+    color: #2e2e2e;
+}
+
+.Profile p{
+    line-height: 75px;
+}
+
+.Awwards-item,
+.Interest li,
+.Skilss-item{
+    font-weight: 600;
+}
+
+.Skilss-item{
+    text-align: center;
+}
+
+.Experience-item b,
+.Reference-fist b,
+.Reference-second b,
+.Education-item b{
+    font-weight: 600;
+    color: #4c5eab;
+}
+
+.Awwards-list,
+.Reference-list,
+.Education-list,
+.Experience-list{
+    line-height: 75px;
+}
+
+.descripon{
+    line-height: 70.83px;
+}
+
+.Skilss-prossession{
+    font-size: 66.67px;
+    line-height: 125px;
+    text-align: center;
+}
+
+footer{
+    background-color: #4c5fa9;
+}
+
+footer a{
+    color: #ffffff;
+}
+
+footer a:focus,
+footer a:hover{
+    color: #4c5fa9;
+    background-color: #ffffffff;
+}
+
+
+
+
+/* Рзметка сетки*/
+
+
+
+
+.visually-hidden{
+    display: none;
+}
+
+body,
+h1,
+h2,
+p,
+span,
+ul,
+main,
+div,
+a{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{    
+    width: 2625px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/* Левая колонка */
+
+
+ 
+
+/* Правая колонка */
+
+
+
+
+
+/* Страница портфолио */
+
+
