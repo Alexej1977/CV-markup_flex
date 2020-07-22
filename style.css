@@ -88,7 +88,8 @@ li,
 
 .Awwards-item,
 .Interest li,
-.Skilss-item{
+.Skilss-item,
+.Skilss-item-left{
     font-weight: 600;
 }
 
@@ -166,14 +167,549 @@ body{
     margin-right: auto;
 }
 
+.header{
+    display: flex;
+    padding-bottom: 75px;
+}
+
+.title-img{
+    width: 640px;
+    padding-top: 150px;
+    text-align: right;
+}
+
+.foto {
+    position: relative;
+    background-color: #d6d6d6;
+    width: 380px;
+    height: 380px;
+    margin-top: 0px;
+    margin-left: 195px;
+    display: block;
+    overflow: hidden;
+    border-radius: 190px 190px;
+}
+
+.foto img{
+    display: block;
+    position: absolute;
+    left: -80px;
+    top: 0px;
+}
+
+.header-name{
+    padding-top: 235px;
+    width: 1410px;   
+}
+
+.header-contacts{
+    padding-top: 150px;
+    width: 390px;
+}
+
+.contacts-link{
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.contacts-link::before{
+    content: " ";
+    position: absolute;
+    width: 25px;
+    height: 36px;
+    left: -75px;
+    top: 10px;
+    background-image: url(Images/map\ pin.png);
+}
+
+.contacts-email{
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.contacts-email::before{
+    content: " ";
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    left: -75px;
+    top: 15px;
+    background-image: url(Images/globe.png);
+}
+
+.contacts-tel{
+    position: relative;
+}
+
+.contacts-tel::before{
+    content: " ";
+    position: absolute;
+    width: 24px;
+    height: 34px;
+    left: -75px;
+    top: 40px;
+    background-image: url(Images/telephone.png);
+}
+
+
+
+
+/* Разметка сетки */
+/* Основная часть */
+
+main{
+    display: flex;
+    margin-bottom: 100px;
+}
 
 
 /* Левая колонка */
 
 
- 
+.left-column{
+    width: 620px;
+    padding-top: 100px;
+    padding-left: 200px;
+    padding-right: 65px;
+}
+
+.left-column h2{
+    position: relative;
+    padding-left: 165px;
+    margin-bottom: 25px;
+}
+
+.Profile{
+    margin-bottom: 95px;
+}
+
+.Profile h2::before{
+    content: " ";
+    position: absolute;
+    width: 114px;
+    height: 114px;
+    left: -5px;
+    top: 0px;
+    background-image: url("images/brief\ case\ 2.png"),
+                        url("images/Ellipse\ 3.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, center;
+}
+
+.Interest{
+    margin-bottom: 70px;
+}
+
+.Interest-list{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 175px;
+}
+
+.Interest-list li{
+    width: 160px;
+}
+
+.Interest h2::before{
+    content: " ";
+    position: absolute;
+    width: 114px;
+    height: 114px;
+    left: -5px;
+    top: 0px;
+    background-image: url("images/brief\ case\ 2.png"),
+                        url("images/Ellipse\ 3.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, center;
+}
+
+.musik{
+    position: relative;
+}
+
+.musik::before{
+    content: " ";
+    position: absolute;
+    left: 0px;
+    top: -154px;
+    width: 144px;
+    height: 144px;
+    background-image: url("Images/handset.png"),
+                        url("Images/Ellipse\ 2.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, center;
+}
+
+.gaming{
+    position: relative;
+}
+
+.gaming::before{
+    content: " ";
+    position: absolute;
+    left: 0px;
+    top: -154px;
+    width: 144px;
+    height: 144px;
+    background-image: url("Images/playstation.png"),
+                        url("Images/Ellipse\ 2.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, center;
+}
+
+.biking{
+    position: relative;
+}
+
+.biking::before{
+    content: " ";
+    position: absolute;
+    left: 0px;
+    top: -154px;
+    width: 144px;
+    height: 144px;
+    background-image: url("Images/vespa.png"),
+                        url("Images/Ellipse\ 2.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, center;
+}
+
+.Reference{
+    margin-bottom: 70px;
+}
+
+.Reference-list{
+    padding-left: 100px;
+}
+
+.Reference-fist{
+    margin-bottom: 55px;
+}
+
+.Reference h2::before{
+    content: " ";
+    position: absolute;
+    width: 114px;
+    height: 114px;
+    left: -5px;
+    top: 0px;
+    background-image: url("images/brief\ case\ 2.png"),
+                        url("images/Ellipse\ 3.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, center;
+}
+
+.Reference-list b{
+    position: relative;
+}
+
+.Reference-list b::before{
+    content: " ";
+    position: absolute;
+    left: -90px;
+    top: 0px;
+    width: 49px;
+    height: 49px;
+    background-image: url("Images/Ellipse\ 2.jpg");
+}
+
+.Reference-fist{
+    position: relative;
+}
+
+.Reference-fist::before{
+    content: " ";
+    position: absolute;
+    left: -90px;
+    top: 100px;
+    width: 49px;
+    height: 300px;
+    background-image: url("images/Shape\ 1.jpg");
+    background-position: center;
+    background-repeat: repeat-y;
+}
+
+.Awwards-list{
+    padding-top: 10px;
+}
+
+.Awwards h2::before{
+    content: " ";
+    position: absolute;
+    width: 114px;
+    height: 114px;
+    left: -5px;
+    top: 0px;
+    background-image: url("images/brief\ case\ 2.png"),
+                        url("images/Ellipse\ 3.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, center;
+}
+
+
 
 /* Правая колонка */
+
+
+.riht-column{
+    width: 1590px;
+    padding-top: 90px;
+    padding-left: 150px;
+}
+
+.Work-Experience{
+    padding-left: 100px;
+}
+
+.Work-Experience h2{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.Work-Experience h2::before{
+    content: " ";
+    position: absolute;
+    width: 114px;
+    height: 114px;
+    left: -200px;
+    top: 0px;
+    background-image: url("images/brief\ case\ 2.png"),
+                        url("images/Ellipse\ 3.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, center;
+}
+
+.Experience-list{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+
+.Experience-item{
+    width: 580px;
+    margin-bottom: 60px;
+}
+
+.Experience-item b{
+    position: relative;
+}
+
+.Experience-item b::before{
+    content: " ";
+    position: absolute;
+    width: 49px;
+    height: 49px;
+    left: -85px;
+    top: 0px;
+    background-image: url("Images/Ellipse_smoll.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.work1::after{
+    content: " ";
+    position: absolute;
+    width: 49px;
+    height: 235px;
+    left: -85px;
+    top: 49px;
+    background-image: url(images/Shape\ 1.jpg);
+    background-position: center;
+    background-repeat: repeat-y;
+}
+
+.work2::after{
+    content: " ";
+    position: absolute;
+    width: 49px;
+    height: 235px;
+    left: -85px;
+    top: 49px;
+    background-image: url(images/Shape\ 1.jpg);
+    background-position: center;
+    background-repeat: repeat-y;
+}
+
+.descripon{
+    width: 720px;
+}
+
+.Education{
+    padding-left: 100px;
+    margin-bottom: 90px;
+}
+
+.Education h2{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.Education h2::before{
+    content: " ";
+    position: absolute;
+    width: 114px;
+    height: 114px;
+    left: -200px;
+    top: 0px;
+    background-image: url("images/brief\ case.png"),
+                        url("images/Ellipse\ 3.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, center;
+}
+
+.Education-list{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.Education-list::before{
+    content: " ";
+    position: absolute;
+    width: 49px;
+    height: 235px;
+    left: -85px;
+    top: 133px;
+    background-image: url(images/Shape\ 1.jpg);
+    background-position: center;
+    background-repeat: repeat-y;
+}
+
+.Education-item{
+    width: 580px;
+    margin-bottom: 55px;
+}
+
+.Education-item b{
+    position: relative;
+}
+
+.Education-item b::before{
+    content: " ";
+    position: absolute;
+    width: 49px;
+    height: 49px;
+    left: -85px;
+    top: 0px;
+    background-image: url("Images/Ellipse_smoll.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.Skilss-list{
+    display: flex;
+    justify-content: space-between;
+    width: 1385px;
+}
+
+.Professional-Skills h2{
+    position: relative;
+    padding-left: 100px;
+}
+
+.Professional-Skills h2::before{
+    content: " ";
+    position: absolute;
+    width: 114px;
+    height: 114px;
+    left: -100px;
+    top: 0px;
+    background-image: url("images/graph\ chart\ 1.png"),
+                        url("images/Ellipse\ 3.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, center;
+}
+
+.Skilss-prossession{
+    padding-top: 120px;
+    width: 320px;
+    margin-bottom: 65px;
+    align-items: center;
+}
+
+.Interface{
+    position: relative;
+    padding-left: 20px;
+}
+
+.Interface::before{
+    content: " ";
+    position: absolute;
+    left: -30px;
+    top: -70px;
+    width: 234px;
+    height: 234px;
+    background-image: url(images/Ellipse\ 93.png);
+}
+
+.Design{
+    position: relative;
+}
+
+.Design::before{
+    content: " ";
+    position: absolute;
+    left: -45px;
+    top: -75px;
+    width: 234px;
+    height: 234px;
+    background-image: url(images/Ellipse\ 84.png);
+}
+
+.Photoshop{
+    position: relative;
+}
+
+.Photoshop::before{
+    content: " ";
+    position: absolute;
+    left: -55px;
+    top: -75px;
+    width: 234px;
+    height: 234px;
+    background-image: url(images/Ellipse\ 97.png);
+}
+
+.Experience{
+    position: relative;
+    padding-right: 30px;
+}
+
+.Experience::before{
+    content: " ";
+    position: absolute;
+    left: -55px;
+    top: -75px;
+    width: 234px;
+    height: 234px;
+    background-image: url(images/Ellipse\ 83.png);
+}
+
+.Skilss-item{
+    width: 340px;
+    align-items: center;
+}
+
+
+/* Подвал */
+
+
+
+footer{
+    padding: 70px;
+    margin-bottom: 300px;
+    overflow: auto;
+
+}
+
+footer a{
+    display: inline-block;
+    padding: 10px 30px;
+    border: 5px solid  #ffffff;
+    border-radius: 60px 60px;
+    box-shadow: 0 0 50px;
+    float: right;
+}
 
 
 
@@ -181,4 +717,82 @@ body{
 
 /* Страница портфолио */
 
+.main-potfolio{
+    margin-bottom: 200px;
+}
+
+
+.portfolio{
+    padding-left: 100px;
+    width: 1300px;
+}
+
+.portfolio h2{
+    position: relative;
+    margin-bottom: 70px;
+}
+
+.portfolio h2::before{
+    content: " ";
+    position: absolute;
+    width: 114px;
+    height: 114px;
+    left: -215px;
+    top: 0px;
+    background-image: url("images/brief\ case\ 2.png"),
+                        url("images/Ellipse\ 3.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, center;
+}
+
+.scrinshot img{
+    display: block;
+    background-color: #d6d6d6;
+    border: 1px solid  #d6d6d6;
+}
+
+.perechen-rabot{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.perechen-rabot li{
+    margin-bottom: 70px;
+    box-shadow: 0 0 88px #bbb;
+}
+
+.podpis{
+    padding-top: 25px;
+    padding-bottom: 45px;
+}
+
+.rabota{
+    line-height: 50px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.vid-dejatelnosti{
+    line-height: 50px;
+    text-align: center;
+}
+
+
+.foot-portfolio{
+    padding: 70px;
+    margin-bottom: 300px;
+    overflow: auto;
+
+}
+
+.foot-portfolio a{
+    display: inline-block;
+    padding: 10px 70px;
+    border: 5px solid  #ffffff;
+    border-radius: 60px 60px;
+    box-shadow: 0 0 50px;
+    float: none;
+}
 
